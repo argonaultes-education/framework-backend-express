@@ -1,14 +1,13 @@
-
 const welcomeMessage = (request, response) => {
-    response.send('Bienvenue');
+  response.send('Bienvenue');
 };
 
-const welcomeMessageFunction = function(request, response) {
-    response.send('Bienvenue from function');
+const welcomeMessageFunction = function (request, response) {
+  response.send('Bienvenue from function');
 };
 
 const testEjsView = (req, res) => {
-    res.render('welcome');
+  res.render('welcome');
 };
 
-module.exports = {welcomeMessage, welcomeMessageFunction, testEjsView};
+module.exports = { welcomeMessage, welcomeMessageFunction, testEjsView };
